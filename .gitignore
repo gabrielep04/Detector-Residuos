@@ -1,0 +1,40 @@
+# Byte-compiled / optimization files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+ENV/
+env/
+env.bak/
+
+# macOS
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# TensorFlow model weights
+*.h5
+
+# Datos pesados (opcional: descarga el dataset aparte)
+dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Otros
+*.py~ 
