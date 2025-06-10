@@ -5,11 +5,11 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # Carga del modelo entrenado
-model = load_model('./modelo_residuos_entrenado_5_clases.h5')
+model = load_model('./model.h5')
 # Si lo guardaste dinámicamente según train_generator.num_classes, usa ese nombre.
 
 # Clases 
-classes = ['metal','glass','plastic','cardboard','paper','trash']
+classes = np.load('./classes.npy', allow_pickle=True)
 
 # Función de preprocesamiento
 def preprocess_image(image):

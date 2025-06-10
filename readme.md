@@ -6,7 +6,7 @@
 
 El archivo `evaluacion_residuos.py` realiza los siguientes pasos:
 
-1. Carga del modelo entrenado: `modelo_residuos_entrenado_5_clases.h5`.
+1. Carga del modelo entrenado: `model.h5`.
 2. Preparación del generador de validación (`ImageDataGenerator` con `rescale=1./255`).
 3. Predicción sobre el conjunto de validación.
 4. Cálculo de métricas (precisión, recall, f1-score) mediante `classification_report`.
